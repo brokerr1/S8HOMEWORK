@@ -8,7 +8,7 @@ PrintArray(array);
 ArraySort();
 Console.WriteLine("Упорядоченный массив массив:");
 PrintArray(array);
-void ArraySort()
+void ArraySort(int[,] array)
 {
     int n = array.GetLength(0), m = array.GetLength(1);
     for (int c = 0; c < n; c++)
